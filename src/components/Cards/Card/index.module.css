@@ -1,0 +1,12 @@
+.card {
+  width: 90%;
+  height: 100%;
+  margin: 0.2%;
+  overflow-x: hidden;
+
+  background: #b4b4b4;
+  border-radius: 25px;
+}
+.cardtophundred {
+  height: 95% !important;
+}

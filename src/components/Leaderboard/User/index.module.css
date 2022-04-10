@@ -1,0 +1,232 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 87%;
+  height: 7em;
+  margin: 0.8em auto;
+
+  background: #656565;
+  border-radius: 25px;
+}
+.namescore {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+}
+.namescore h1 {
+  margin-top: 1.3em;
+  margin-bottom: 0.1em;
+}
+.namescore h2 {
+  margin-bottom: 1.8em;
+  margin-top: 0;
+}
+.userinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  height: 7em;
+
+  background: #e7e7e7;
+  border-radius: 25px;
+}
+.userup {
+  background: #00fd61 !important;
+}
+.userdown {
+  background: #ee7676 !important;
+}
+.h2 {
+  margin-right: 1em;
+  margin-left: 1em;
+  display: flex;
+  justify-content: center;
+  color: #e7e7e7;
+  flex-grow: 1;
+  align-items: center;
+}
+.rankdiff {
+  margin-left: 0.5em;
+  margin-right: 1.6em;
+  font-size: 1.7em;
+}
+.svg {
+  width: 4em;
+  height: 4em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 50%;
+  background-color: #e6e5e5;
+}
+.ranksvg {
+  width: 2em;
+  height: 2em;
+  margin-left: 1em;
+  border-radius: 50%;
+  background-color: #e6e5e5;
+}
+.dailydif {
+  margin-left: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.isuser {
+  border-style: solid;
+  border-color: rgb(151, 255, 255);
+  border-width: 3px;
+}
+.img {
+  width: 4em;
+  height: 4em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 50%;
+  background-color: #e6e5e5;
+  object-fit: cover;
+}
+.rankimg {
+  width: 2em;
+  height: 2em;
+  margin-left: 1em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+    height: 4em;
+    margin: 0.6em auto;
+
+    background: #656565;
+    border-radius: 15px;
+  }
+  .namescore {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+  }
+  .namescore h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #303030;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-top: 1.3em;
+    margin-bottom: 0.1em;
+  }
+  .namescore h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 1.8em;
+    margin-top: 0;
+  }
+  .userinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 4em;
+
+    background: #e7e7e7;
+    border-radius: 15px;
+  }
+  .userup {
+    background: #00fd61 !important;
+  }
+  .userdown {
+    background: #ee7676 !important;
+  }
+  .h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #e7e7e7;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .rankdiff {
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    font-size: 1em;
+  }
+
+  .ranksvg {
+    width: 2em;
+    height: 2em;
+    margin-left: 1em;
+    border-radius: 50%;
+    background-color: #e6e5e5;
+  }
+  .dailydif {
+    margin-left: 0.5em;
+    margin-right: 0.6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .isuser {
+    border-style: solid;
+    border-color: rgb(151, 255, 255);
+    border-width: 3px;
+  }
+  .img {
+    width: 2em;
+    height: 2em;
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+    border-radius: 50%;
+    background-color: #e6e5e5;
+    object-fit: cover;
+  }
+  .rankimg {
+    width: 1.4em;
+    height: 1.4em;
+    margin-left: 0.2em;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .div {
+    width: 95%;
+    height: 95vh;
+    margin: 1em auto;
+    background: #fafafa;
+    box-shadow: 0px 0px 59px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .div {
+    width: 90%;
+    height: 95vh;
+    margin: 1em auto;
+    background: #fafafa;
+    box-shadow: 0px 0px 59px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .div {
+    width: 70%;
+    height: 95vh;
+    margin: 1em auto;
+    background: #fafafa;
+    box-shadow: 0px 0px 59px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+  }
+}
